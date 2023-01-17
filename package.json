@@ -1,0 +1,23 @@
+{
+  "name": "nuevoproyectoprueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run" : "cypress run",
+    "cypressrunfeature": "cypress run --spec C:/Proyectos/nuevoProyectoPrueba/cypress/e2e/1-features/ejemplo.cy.js"
+  },
+  "author": "fede",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "esbuild": "^0.16.4",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  }
+}
